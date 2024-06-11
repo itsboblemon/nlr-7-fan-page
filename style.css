@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(black, #228B22);
+    font-family: cursive;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 50px;
+    font-size: 500%;
+}
+
+main {
+    padding: 20px;;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section > h2 {
+    text-decoration: underline;
+}
+
+#facts-section table {
+    margin-left: 720px; 
+    border-collapse: collapse;
+}
+
+#facts-section th, #facts-section td {
+    border: 3px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+#quotes-section blockquote {
+    font-style: italic;
+    margin: 10px;
+    font-size: 120%;
+}
+
+#links-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#links-section li {
+    margin-bottom: 5px;
+}
